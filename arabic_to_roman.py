@@ -1,7 +1,7 @@
-def to_roman(anArabic):
+def to_roman(an_arabic):
     """
     Returns roman equivalent to an arabic
-    :arg anArabic: <int>
+    :arg an_arabic: <int>
     Returns <str>
     """
     result = ""
@@ -20,8 +20,8 @@ def to_roman(anArabic):
                           (4,"IV"),
                           (1,"I")]:
 
-        while anArabic >= level:
+        while an_arabic >= level:
             result += symbol
-            anArabic -= level
+            an_arabic -= level
     
     return result
